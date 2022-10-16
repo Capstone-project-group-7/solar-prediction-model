@@ -16,6 +16,8 @@ body{
     width: 25%;
 
 @media (min-width: 760px) {
+
+
     body {
         background-color: blueviolet;
     }
@@ -25,7 +27,7 @@ body{
     body {
         background-color: white;
     }
-    .pizzas {
+    .login {
         display: flex;
     } 
 }
