@@ -1,3 +1,11 @@
+from flask import Flask
 from waitress import serve
-import main1
-serve(main1.app, host='0.0.0.0', port=8080)
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(message)s')
+
+app = Flask(__name__)
+
+
+if __name__ == "__main__":
+    serve(app)
